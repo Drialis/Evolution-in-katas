@@ -3,7 +3,7 @@ function countPositivesSumNegatives(input) {
   let positive = 0
   let negative = 0
   
-  if (input.length === 0 || input === null) {
+  if (input === null || input.length === 0 ) {
     return []
   }
   
